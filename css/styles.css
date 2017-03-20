@@ -3,19 +3,23 @@ html, body {
   width: 100%;
   margin: 0;
 }
+
+/******  HEADER *********/
 .header-container {
   padding-top: 20px;
-}
-.header-text-wrapper{
-  height: 150px;
-  padding-right: 35px;
+  margin: 0 auto;
 }
 .github-img-wrapper {
   height: 150px;
-  padding-left: 35px;
 }
 .github-img {
   height: 100%;
+}
+.fa-github-alt {
+  color: black;
+}
+.header-text-wrapper{
+  height: 150px;
 }
 .my-name {
   height: auto;
@@ -23,16 +27,20 @@ html, body {
 .social-icons {
   height: auto:
 }
-/*hr {
-  border: 1px solid green;
-  margin-top: 20px;
-}*/
 
-.fa-github-alt {
-  color: black;
+
+.about-me-wrapper {
+  margin: 0 auto;
+}
+.about-me-img {
+  margin: 0 auto; 
 }
 
 
-.about-me-img {
+/******** Projects *******/
+.projects-container{
   margin: 0 auto;
+}
+.project-img-wrapper {
+  padding: 15px;
 }
