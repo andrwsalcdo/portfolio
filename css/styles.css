@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0;
+  /*margin: 0;*/
 }
 
 /******  HEADER *********/
@@ -33,14 +33,30 @@ html, body {
   margin: 0 auto;
 }
 .about-me-img {
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 
 /******** Projects *******/
 .projects-container{
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 .project-img-wrapper {
   padding: 15px;
+}
+
+
+/******** FOOTER *******/
+.footer-container {
+  background-color: #bfdfff;
+  padding: 50px 50px 20px;
+}
+.footer-icons {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.copyright {
+  text-align: center;
 }
