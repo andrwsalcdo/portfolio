@@ -2,28 +2,43 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 /******  HEADER *********/
+header {
+   position: relative;
+   height: 100%;
+   background-image: linear-gradient(#ff9d2f, #ff6126);
+   border-bottom-left-radius: 50% 20%;
+   border-bottom-right-radius: 50% 20%;
+}
 .github-img-wrapper {
-  height: 150px;
+  height: 250px;
 }
 .github-img {
   height: 100%;
+  border-radius: 50%;
+  padding: 10px;
 }
 .fa-github-alt {
   color: black;
 }
 .header-text-wrapper{
-  height: 150px;
+  height: 250px;
+  text-align: center;
 }
 .my-name {
   height: auto;
+  font-size: 32px;
 }
 .social-icons {
   height: auto:
 }
-
+.bio {
+  padding: 5px 15px 5px 15px;
+  white-space: normal;
+}
 .about-me-img {
   margin: 0 auto;
 }
@@ -47,4 +62,24 @@ html, body {
 }
 .copyright {
   text-align: center;
+}
+
+
+/******  Media Queries  ****/
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .header-text-wrapper {
+        text-align: left;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    
+    .github-img {
+      margin-left: 52%;
+    }
+
+
 }
