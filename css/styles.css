@@ -5,6 +5,7 @@ html, body {
   font-size: 16px;
 }
 
+
 /******  HEADER *********/
 header {
    position: relative;
@@ -39,15 +40,16 @@ header {
   padding: 5px 15px 5px 15px;
   white-space: normal;
 }
-.about-me-img {
-  margin: 0 auto;
-}
 
 
 /******** Projects *******/
-.project-img-wrapper {
+.project-wrapper {
   padding: 15px;
+  z-index: 10;
+  box-shadow: rgb(204,204,204) 3px 3px 5px 0px;
+  border-radius: 5px;
 }
+
 
 
 /******** FOOTER *******/
@@ -76,7 +78,7 @@ header {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-    
+
     .github-img {
       margin-left: 52%;
     }
