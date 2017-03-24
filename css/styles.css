@@ -60,17 +60,15 @@ h2 {
 
 
 /******** FOOTER *******/
-.footer-container {
+.footer {
   background-color: #bfdfff;
   padding: 50px 50px 20px;
 }
-.footer-icons {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 15px;
+h3 {
+  padding: 10px 0 50px 0;
 }
-.copyright {
-  text-align: center;
+h6 {
+  margin-top: 45px; 
 }
 
 
