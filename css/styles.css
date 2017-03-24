@@ -43,13 +43,9 @@ header {
 
 
 /******** Projects *******/
-.project-wrapper {
-  padding: 15px;
+.thumbnail {
   z-index: 10;
-  box-shadow: rgb(204,204,204) 3px 3px 5px 0px;
-  border-radius: 5px;
 }
-
 
 
 /******** FOOTER *******/
