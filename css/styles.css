@@ -100,8 +100,9 @@ h4 {
     margin-bottom: 20px;
 }
 .fa-github {
-  margin-right: 10px;
   color: #6A8FBB;
+  margin-top: -10px;
+  margin-right: 10px;
 }
 .thumbnail p {
   color: black;
