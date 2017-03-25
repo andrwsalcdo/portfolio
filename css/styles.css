@@ -3,20 +3,61 @@
   padding-top: 50px;
   overflow-x: hidden;
   font-size: 16px;
-  position: relative; 
+  position: relative;
+}
+/**** Navbar *******/
+.navbar {
+    margin-bottom: 0;
+    background-color: #BCC9DA;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
 }
 
+.navbar li a, .navbar .navbar-brand {
+    color: #6A8FBB !important;
+    font-weight: bold;
+}
 
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #2C537A !important;
+    background-color: #AAD1FF !important;
+}
+.navbar-toggle{
+  background-color: #f6f6f6;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:#6A8FBB;
+}
 
-
+.navbar-default .navbar-toggle:hover {
+  background-color:#AAD1FF;
+}
+.navbar-default .navbar-toggle .icon-bar:hover {
+  background-color:  #6A8FBB;
+}
 
 /******  HEADER *********/
+.header{
+   background-color: #f6f6f6;
+}
 header {
    position: relative;
    height: 100%;
-   background-image: linear-gradient(#ff9d2f, #ff6126);
+   background-image: linear-gradient(#fff,#fff);
    border-bottom-left-radius: 40% 20%;
    border-bottom-right-radius: 40% 20%;
+}
+header p {
+  color: #6A8FBB;
+}
+h1 {
+    color: #6A8FBB;
+    font-weight: 500;
+    height: auto;
 }
 .github-img-wrapper {
   height: 250px;
@@ -26,55 +67,71 @@ header {
   border-radius: 50%;
   padding: 10px;
 }
-.fa-github-alt {
-  color: black;
-}
-.header-text-wrapper{
-  height: 250px;
-  text-align: center;
-}
-.my-name {
-  height: auto;
-  font-size: 32px;
-}
-.social-icons {
-  height: auto:
+.fa-github-alt, .fa-linkedin-square, .fa-twitter {
+  color: #AAD1FF;
 }
 
 
 /******** Projects *******/
+.bg-portfolio {
+    background-color:  #f6f6f6;
+}
 h2 {
+  color: #6A8FBB;
+  font-weight: 700;
   padding: 30px 5px;
+  letter-spacing: 3px;
+}
+h4 {
+  color: black;
 }
 .projects{
   margin-bottom: 45px;
 }
 .thumbnail {
+  padding: 0;
   z-index: 10;
   border: none;
+  background-color: #BCC9DA;
 }
 .thumbnail img {
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
 }
+.fa-github {
+  margin-right: 10px;
+  color: #6A8FBB;
+}
+.thumbnail p {
+  color: black;
+}
+.thumbnail button {
+  background-color: #6A8FBB;
+}
 
 
 /******** FOOTER *******/
 .footer {
-  background-color: #bfdfff;
   padding: 50px 50px 20px;
 }
 footer .glyphicon {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 20px;
-    color: black;
 }
+.arrow {
+  color: #2C537A !important;
+}
+
 h3 {
   padding: 10px 0 50px 0;
+  color: #6A8FBB;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
-h6 {
+h5 {
   margin-top: 45px;
+  color:#6A8FBB;
 }
 
 
