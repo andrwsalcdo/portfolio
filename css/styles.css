@@ -41,13 +41,11 @@
 }
 
 /******  HEADER *********/
-.header{
-   background-color: #f6f6f6;
-}
+
 header {
    position: relative;
    height: 100%;
-   background-image: linear-gradient(#fff,#fff);
+   background: #f6f6f6; 
    border-bottom-left-radius: 40% 20%;
    border-bottom-right-radius: 40% 20%;
 }
@@ -70,7 +68,13 @@ h1 {
 .fa-github-alt, .fa-linkedin-square, .fa-twitter {
   color: #AAD1FF;
 }
-
+/******  About *********/
+#about p {
+  padding: 20px 0 20px 0;
+}
+#about p:last-of-type {
+  margin-bottom: 70px;
+}
 
 /******** Projects *******/
 .bg-portfolio {
@@ -124,7 +128,7 @@ h4 {
   background-color: #6A8FBB;
 }
 .form-group button:hover {
-  background-color: #AAD1FF;    
+  background-color: #AAD1FF;
 }
 #contact {
   margin-bottom: 75px;
