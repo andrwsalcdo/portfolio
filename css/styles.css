@@ -45,7 +45,7 @@
 header {
    position: relative;
    height: 100%;
-   background: #f6f6f6; 
+   background: #f6f6f6;
    border-bottom-left-radius: 40% 20%;
    border-bottom-right-radius: 40% 20%;
 }
@@ -69,13 +69,18 @@ h1 {
   color: #AAD1FF;
 }
 /******  About *********/
+#about h2 {
+  margin-bottom: 45px;
+}
 #about p {
-  padding: 20px 0 20px 0;
+  padding: 35px 0 35px 0;
 }
-#about p:last-of-type {
-  margin-bottom: 70px;
+#about .row:last-of-type {
+  margin-bottom: 80px;
 }
-
+#about i {
+  font-size: 48px;
+}
 /******** Projects *******/
 .bg-portfolio {
     background-color:  #f6f6f6;
@@ -84,7 +89,7 @@ h2 {
   color: #6A8FBB;
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 45px;
+  margin-bottom: 80px;
   padding: 30px 5px;
   letter-spacing: 5px;
 }
