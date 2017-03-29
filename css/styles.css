@@ -110,19 +110,27 @@ h4 {
 .thumbnail p {
   color: black;
 }
-.thumbnail button {
+.thumbnail .btn-project {
+  color: #fff;
   background-color: #6A8FBB;
+}
+.thumbnail .btn-project:hover {
+  background-color: #AAD1FF;
 }
 
 /******** Contact *******/
 .form-group button {
+  color: #fff;
   background-color: #6A8FBB;
+}
+.form-group button:hover {
+  background-color: #AAD1FF;    
 }
 #contact {
   margin-bottom: 75px;
 }
 #contact p {
-  line-height: 2; 
+  line-height: 2;
 }
 
 /******** FOOTER *******/
