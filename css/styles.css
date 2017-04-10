@@ -66,8 +66,21 @@ h1 {
   border-radius: 50%;
   padding: 10px;
 }
-.fa-github-alt, .fa-linkedin-square, .fa-twitter {
-  color: #AAD1FF;
+.social-buttons a {
+  display: block;
+  background-color: #aad1ff;
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+  font-size: 30px;
+  line-height: 50px;
+  color: #fff;
+  outline: 0;
+  transition: all .3s;
+  text-align: center;
+}
+.social-buttons a:hover {
+  color: #6a8fbb;
 }
 /******  About *********/
 #about h2 {
@@ -116,13 +129,14 @@ h4 {
     overflow: hidden;
     margin-bottom: 20px;
 }
-.fa-github {
+.thumbnail .fa-github {
   color: #6A8FBB;
   margin-top: -10px;
   margin-right: 10px;
+  font-size: 38px;
 }
-.thumbnail p {
-  color: black;
+.thumbnail .fa-github:hover{
+  color: #aad1ff;
 }
 .thumbnail .btn-project {
   color: #fff;
@@ -165,6 +179,9 @@ h3 {
   color: #6A8FBB;
   font-weight: 700;
   letter-spacing: 1px;
+}
+footer .social-buttons a {
+  margin: 0 auto;
 }
 h5 {
   margin-top: 45px;
