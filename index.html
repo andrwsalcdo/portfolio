@@ -12,8 +12,6 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
   rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body id="page" data-spy="scroll" data-target=".navbar" data-offset="10">
 
@@ -205,6 +203,30 @@
         <h5>Copyright © 2017 Andrew Salcedo </h5>
       </footer>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- smooth scrolling -->
+  <script type="text/javascript">
+      // simple smooth scrolling for bootstrap scroll spy nav
+    // credit http://stackoverflow.com/questions/14804941/how-to-add-smooth-scrolling-to-bootstraps-scroll-spy-function
+    $(".navbar-nav li a[href^='#']").on('click', function(e) {
+           // prevent default anchor click behavior
+           e.preventDefault();
 
+           // store hash
+           var hash = this.hash;
+
+           // animate
+           $('html, body').animate({
+               scrollTop: $(this.hash).offset().top
+             }, 1100, function(){
+
+               // when done, add hash to url
+               // (default click behaviour)
+               window.location.hash = hash;
+             });
+
+        });
+  </script>
 </body>
 </html>
