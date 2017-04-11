@@ -49,6 +49,7 @@ header {
    background: #f6f6f6;
    border-bottom-left-radius: 40% 20%;
    border-bottom-right-radius: 40% 20%;
+   padding-bottom: 65px;
 }
 header p {
   color: #6A8FBB;
@@ -94,15 +95,18 @@ h1 {
 #about p {
   padding: 35px 0 35px 0;
 }
-#about .row:last-of-type {
-  margin-bottom: 80px;
-}
 #about i {
   font-size: 48px;
 }
+.skills{
+  display: flex;
+  justify-content:space-around;
+  list-style: none;
+  padding-left: 0;
+}
 .gh-chart {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-bottom: 75px;
 }
 /******** Projects *******/
 .bg-portfolio {
@@ -197,9 +201,6 @@ h5 {
 /******  Media Queries  ****/
 
 @media only screen and (max-width: 768px) {
-    header {
-      padding-bottom: 65px;
-    }
     header .text-wrapper {
       text-align: center;
     }
