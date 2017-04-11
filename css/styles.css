@@ -148,6 +148,7 @@ h4 {
   color: #aad1ff;
 }
 .thumbnail .btn-project {
+  border: 2px solid #6a8fbb;
   color: #fff;
   background-color: #6A8FBB;
 }
@@ -157,11 +158,27 @@ h4 {
 
 /******** Contact *******/
 .form-group button {
+  border: 2px solid #6a8fbb;
   color: #fff;
   background-color: #6A8FBB;
 }
 .form-group button:hover {
   background-color: #AAD1FF;
+}
+.btn.resume {
+	background: none;
+	padding: 12px 22px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.btn-primary.resume {
+	border: 2px solid #6a8fbb;
+	background-color: #6a8fbb;
+  color: #fff;
+}
+.btn-primary.resume:hover {
+  color: #fff;
+  background-color: #aad1ff;
 }
 #contact {
   margin-bottom: 75px;
@@ -181,6 +198,9 @@ footer .glyphicon {
 }
 .arrow {
   color: #2C537A !important;
+}
+.arrow:hover {
+  color: #aad1ff !important; 
 }
 
 h3 {
