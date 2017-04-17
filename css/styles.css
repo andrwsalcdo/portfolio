@@ -1,12 +1,13 @@
- body {
-  margin: 0;
-  padding-top: 50px;
-  overflow-x: hidden;
-  font-size: 16px;
-  position: relative;
-  font-family: 'Didact Gothic', sans-serif;
+body {
+    margin: 0;
+    padding-top: 50px;
+    overflow-x: hidden;
+    font-size: 16px;
+    position: relative;
+    font-family: 'Didact Gothic', sans-serif;
 }
 /**** Navbar *******/
+
 .navbar {
     margin-bottom: 0;
     background-color: #BCC9DA;
@@ -17,42 +18,40 @@
     letter-spacing: 4px;
     border-radius: 0;
 }
-
-.navbar li a, .navbar .navbar-brand {
+.navbar li a,
+.navbar .navbar-brand {
     color: #6A8FBB !important;
     font-weight: bold;
 }
-
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
     color: #2C537A !important;
     background-color: #AAD1FF !important;
 }
-.navbar-toggle{
-  background-color: #f6f6f6;
+.navbar-toggle {
+    background-color: #f6f6f6;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color:#6A8FBB;
+    background-color: #6A8FBB;
 }
-
 .navbar-default .navbar-toggle:hover {
-  background-color:#AAD1FF;
+    background-color: #AAD1FF;
 }
 .navbar-default .navbar-toggle .icon-bar:hover {
-  background-color:  #6A8FBB;
+    background-color: #6A8FBB;
 }
-
 /******  HEADER *********/
 
 header {
-   position: relative;
-   height: 100%;
-   background: #f6f6f6;
-   border-bottom-left-radius: 40% 20%;
-   border-bottom-right-radius: 40% 20%;
-   padding-bottom: 65px;
+    position: relative;
+    height: 100%;
+    background: #f6f6f6;
+    border-bottom-left-radius: 40% 20%;
+    border-bottom-right-radius: 40% 20%;
+    padding-bottom: 65px;
 }
 header p {
-  color: #6A8FBB;
+    color: #6A8FBB;
 }
 h1 {
     color: #6A8FBB;
@@ -60,74 +59,76 @@ h1 {
     height: auto;
 }
 .github-img {
-  height: 200px;
-  border-radius: 50%;
-  padding: 10px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 10px;
 }
 .list-inline {
-  padding-left: 0;
-  margin-left: -5px;
-  list-style: none;
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
 }
 .social-buttons a {
-  display: block;
-  background-color: #aad1ff;
-  height: 48px;
-  width: 48px;
-  border-radius: 100%;
-  font-size: 30px;
-  line-height: 50px;
-  color: #fff;
-  outline: 0;
-  transition: all .3s;
-  text-align: center;
+    display: block;
+    background-color: #aad1ff;
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    font-size: 30px;
+    line-height: 50px;
+    color: #fff;
+    outline: 0;
+    transition: all .3s;
+    text-align: center;
 }
 .social-buttons a:hover {
-  color: #6a8fbb;
+    color: #6a8fbb;
 }
 /******  About *********/
+
 #about h2 {
-  margin-bottom: 45px;
+    margin-bottom: 45px;
 }
 #about p {
-  padding: 35px 0 35px 0;
+    padding: 35px 0 35px 0;
 }
 #about i {
-  font-size: 48px;
+    font-size: 48px;
 }
-.skills{
-  display: flex;
-  justify-content:space-around;
-  list-style: none;
-  padding-left: 0;
+.skills {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
 }
 .gh-chart {
-  margin-top: 60px;
-  margin-bottom: 75px;
+    margin-top: 60px;
+    margin-bottom: 75px;
 }
 /******** Projects *******/
+
 .bg-portfolio {
-    background-color:  #f6f6f6;
+    background-color: #f6f6f6;
 }
 h2 {
-  color: #6A8FBB;
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 80px;
-  padding: 30px 5px;
-  letter-spacing: 5px;
+    color: #6A8FBB;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 80px;
+    padding: 30px 5px;
+    letter-spacing: 5px;
 }
 h4 {
-  color: black;
+    color: black;
 }
-.projects{
-  margin-bottom: 45px;
+.projects {
+    margin-bottom: 45px;
 }
 .thumbnail {
-  padding: 0;
-  z-index: 10;
-  border: none;
-  background-color: #BCC9DA;
+    padding: 0;
+    z-index: 10;
+    border: none;
+    background-color: #BCC9DA;
 }
 .thumbnail img {
     width: 100%;
@@ -136,99 +137,96 @@ h4 {
     margin-bottom: 20px;
 }
 .thumbnail .fa-github {
-  color: #6A8FBB;
-  margin-top: -10px;
-  margin-right: 10px;
-  font-size: 38px;
+    color: #6A8FBB;
+    margin-top: -10px;
+    margin-right: 10px;
+    font-size: 38px;
 }
-.thumbnail .fa-github:hover{
-  color: #aad1ff;
+.thumbnail .fa-github:hover {
+    color: #aad1ff;
 }
 .thumbnail .btn-project {
-  border: 2px solid #6a8fbb;
-  color: #fff;
-  background-color: #6A8FBB;
+    border: 2px solid #6a8fbb;
+    color: #fff;
+    background-color: #6A8FBB;
 }
 .thumbnail .btn-project:hover {
-  background-color: #AAD1FF;
+    background-color: #AAD1FF;
 }
-
 /******** Contact *******/
+
 .form-group button {
-  border: 2px solid #6a8fbb;
-  color: #fff;
-  background-color: #6A8FBB;
+    border: 2px solid #6a8fbb;
+    color: #fff;
+    background-color: #6A8FBB;
 }
 .form-group button:hover {
-  background-color: #AAD1FF;
+    background-color: #AAD1FF;
 }
 .btn.resume {
-	background: none;
-	padding: 12px 22px;
-  margin-bottom: 15px;
-  font-size: 16px;
+    background: none;
+    padding: 12px 22px;
+    margin-bottom: 15px;
+    font-size: 16px;
 }
 .btn-primary.resume {
-	border: 2px solid #6a8fbb;
-	background-color: #6a8fbb;
-  color: #fff;
+    border: 2px solid #6a8fbb;
+    background-color: #6a8fbb;
+    color: #fff;
 }
 .btn-primary.resume:hover {
-  color: #fff;
-  background-color: #aad1ff;
+    color: #fff;
+    background-color: #aad1ff;
 }
 #contact {
-  margin-bottom: 75px;
+    margin-bottom: 75px;
 }
 #contact p {
-  line-height: 2;
+    line-height: 2;
 }
-
 /******** FOOTER *******/
+
 .footer {
-  padding: 50px 50px 20px;
-  background-color:  #f6f6f6;
+    padding: 50px 50px 20px;
+    background-color: #f6f6f6;
 }
 footer .glyphicon {
     font-size: 30px;
     margin-bottom: 20px;
 }
 .arrow {
-  color: #2C537A !important;
+    color: #2C537A !important;
 }
 .arrow:hover {
-  color: #aad1ff !important;
+    color: #aad1ff !important;
 }
-
 h3 {
-  padding: 10px 0 50px 0;
-  color: #6A8FBB;
-  font-weight: 700;
-  letter-spacing: 1px;
+    padding: 10px 0 50px 0;
+    color: #6A8FBB;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 footer .social-buttons a {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 h5 {
-  margin-top: 45px;
-  color:#6A8FBB;
+    margin-top: 45px;
+    color: #6A8FBB;
 }
-
-
 /******  Media Queries  ****/
 
 @media only screen and (max-width: 768px) {
     header .text-wrapper {
-      text-align: center;
+        text-align: center;
     }
-
 }
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+
+@media only screen and (min-width: 768px) {
     .header .text-wrapper {
         text-align: left;
     }
     .header .github-img {
-      float: right;
+        float: right;
     }
 }
