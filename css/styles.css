@@ -24,6 +24,7 @@ body {
     font-weight: bold;
 }
 .navbar-nav li a:hover,
+.navbar-nav li a:focus,
 .navbar-nav li.active a {
     color: #2C537A !important;
     background-color: #AAD1FF !important;
@@ -34,10 +35,12 @@ body {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #6A8FBB;
 }
-.navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
     background-color: #AAD1FF;
 }
-.navbar-default .navbar-toggle .icon-bar:hover {
+.navbar-default .navbar-toggle .icon-bar:hover,
+.navbar-default .navbar-toggle .icon-bar:focus {
     background-color: #6A8FBB;
 }
 /******  HEADER *********/
@@ -81,7 +84,8 @@ h1 {
     transition: all .3s;
     text-align: center;
 }
-.social-buttons a:hover {
+.social-buttons a:hover,
+.social-buttons a:focus {
     color: #6a8fbb;
 }
 /******  About *********/
@@ -142,7 +146,8 @@ h4 {
     margin-right: 10px;
     font-size: 38px;
 }
-.thumbnail .fa-github:hover {
+.thumbnail .fa-github:hover,
+.thumbnail .fa-github:focus {
     color: #aad1ff;
 }
 .thumbnail .btn-project {
@@ -150,7 +155,8 @@ h4 {
     color: #fff;
     background-color: #6A8FBB;
 }
-.thumbnail .btn-project:hover {
+.thumbnail .btn-project:hover,
+.thumbnail .btn-project:focus {
     background-color: #AAD1FF;
 }
 /******** Contact *******/
@@ -160,7 +166,8 @@ h4 {
     color: #fff;
     background-color: #6A8FBB;
 }
-.form-group button:hover {
+.form-group button:hover,
+.form-group button:focus {
     background-color: #AAD1FF;
 }
 .btn.resume {
@@ -174,7 +181,8 @@ h4 {
     background-color: #6a8fbb;
     color: #fff;
 }
-.btn-primary.resume:hover {
+.btn-primary.resume:hover,
+.btn-primary.resume:focus {
     color: #fff;
     background-color: #aad1ff;
 }
@@ -197,7 +205,8 @@ footer .glyphicon {
 .arrow {
     color: #2C537A !important;
 }
-.arrow:hover {
+.arrow:hover,
+.arrow:focus {
     color: #aad1ff !important;
 }
 h3 {
